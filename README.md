@@ -1,16 +1,38 @@
-# React + Vite
+# 🛡️GuardDeploy-JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GuardDeploy-JS** เป็นระบบบริหารจัดการการเข้าเวรเจ้าหน้าที่แบบเรียลไทม์ที่เน้นความง่ายในการใช้งาน (Intuitive UI) พัฒนาด้วย React และเทคโนโลยีสมัยใหม่ ช่วยให้การมอบหมายกำลังพลลงพื้นที่เป็นเรื่องง่ายเพียงแค่ "ลากและวาง"
 
-Currently, two official plugins are available:
+## ✨ ฟีเจอร์เด่น
+* **Interactive Map**: แสดงจุดเข้าเวรบนแผนที่จริงด้วย Leaflet
+* **Drag & Drop Assignment**: ลากรายชื่อเจ้าหน้าที่ไปวางในจุดที่ต้องการได้อย่างรวดเร็ว
+* **Capacity Validation**: ระบบตรวจสอบความจุอัตโนมัติ (maxCapacity) ป้องกันการจัดคนเกินจำนวนที่กำหนด
+* **Duplicate Prevention**: ป้องกันการมอบหมายเจ้าหน้าที่คนเดิมซ้ำในหลายจุด
+* **Dynamic UI**: ระบบ Accordion เปิด-ปิดรายชื่อเจ้าหน้าที่ในแต่ละจุดเพื่อความเป็นระเบียบ
+* **Responsive Management**: สามารถเพิ่มจุดเข้าเวรใหม่ได้โดยตรงจากการคลิกบนแผนที่
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 เทคโนโลยีที่ใช้
+* **Frontend**: React (Vite)
+* **State Management**: Zustand (Global Store)
+* **Mapping**: React-Leaflet
+* **Styling**: Tailwind CSS
+* **Icons**: Lucide React
+* **API Client**: Axios
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ วิธีการติดตั้งและรันโปรเจกต์
+1.  **Clone Repository**
+    ```bash
+    git clone [https://github.com/yahalofew/GuardDeploy-JS.git](https://github.com/yahalofew/GuardDeploy-JS.git)
+    cd GuardDeploy-JS
+    ```
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+3.  **Run Development Server**
+    ```bash
+    npm run dev
+    ```
+4.  **Backend (Optional)**
+    * โปรเจกต์นี้เชื่อมต่อกับ API ที่พอร์ต `3000`
+    * ตรวจสอบให้แน่ใจว่าได้รัน `json-server` หรือ Backend ของคุณควบคู่ไปด้วย
+  
