@@ -20,19 +20,17 @@
 
 ## 🛠️ วิธีการติดตั้งและรันโปรเจกต์
 1.  **Clone Repository**
-    ```bash
     git clone [https://github.com/yahalofew/GuardDeploy-JS.git](https://github.com/yahalofew/GuardDeploy-JS.git)
     cd GuardDeploy-JS
-    ```
+   
 2.  **Install Dependencies**
     ```bash
     npm install
-    ```
+    
 3.  **Run Development Server**
     ```bash
     npm run dev
-    ```
-4.  **Backend (Optional)**
-    * โปรเจกต์นี้เชื่อมต่อกับ API ที่พอร์ต `3000`
-    * ตรวจสอบให้แน่ใจว่าได้รัน `json-server` หรือ Backend ของคุณควบคู่ไปด้วย
+    npm run server
+
   
+
